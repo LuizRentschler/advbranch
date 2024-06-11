@@ -15,7 +15,7 @@ process.stdin.on("data", function (data) {
     usuarioResposta == aleatorio - 1 ||
     usuarioResposta == aleatorio + 1
   ) {
-    console.log("MUITO QUENTE");
+    console.log("MUITO HOT");
     tentativasRestantes--;
     console.log("Voce tem + " + tentativasRestantes + "  tentativas");
   } else if (usuarioResposta > aleatorio) {
