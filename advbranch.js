@@ -31,7 +31,7 @@ process.stdin.on("data", function (data) {
   if (tentativasRestantes === 0 )
     {
 
-    console.log("Voce atingiu o limite de erros. O numero era " + aleatorio);
+    console.log("Voce chegou ao maximo de erros. O numero era " + aleatorio);
     console.log("Foi gerado outro numero, tente novamente")
     aleatorio = Math.floor(Math.random() * 101 + 100);
   }
