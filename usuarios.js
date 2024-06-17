@@ -7,7 +7,7 @@ let usuarios = [
 ];
 console.log("Digite seu email");
 process.stdin.on("data", function (data) {
-  entrada.usuario = data.toString().trim().toLowerCase();
+  entrada_usuario = data.toString().trim().toLowerCase();
 
   usuarios.forEach((usuario) => {
     if (entrada_usuario == usuario.email) {
